@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Default.aspx" title="Home"  description="">
+    <siteMapNode url="Promotion.aspx" title="Promotion"  description="" />
+    <siteMapNode url="SearchDetail.aspx" title="SearchDetail"  description="" />
+    <siteMapNode url="Search.aspx" title="Search"  description="" />
+    <siteMapNode url="Contact.aspx" title="Contact"  description="" />
+    <siteMapNode url="About.aspx" title="About"  description="" />
+    <siteMapNode url="Favourites.aspx" title="Favourites"  description="" />
+    <siteMapNode url="" title="Admin"  description="">
+      <siteMapNode url="Restaurant.aspx" title="Maintain Restaurant"  description="">
+        <siteMapNode url="AddShop.aspx" title="Add Restaurant"  description="" />
+        <siteMapNode url="UpdateShop.aspx" title="Update Restaurant"  description="" />
+        <siteMapNode url="DeleteShop.aspx" title="Delete Restaurant"  description="" />
+        <siteMapNode url="Menu.aspx" title="Maintain Menu"  description="">
+          <siteMapNode url="AddMenu.aspx" title="Add Menu"  description="" />
+          <siteMapNode url="Top10User.aspx" title="Top10User"  description="" />
+          <siteMapNode url="UpdateMenu.aspx" title="Update Menu"  description="" />
+          <siteMapNode url="DeleteMenu.aspx" title="Delete Menu"  description="" />
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="Customer.aspx" title="Maintain User"  description="">
+        <siteMapNode url="UpdateUser.aspx" title="Update User"  description="" />
+        <siteMapNode url="UpdateUserPwd.aspx" title="Update Password"  description="" />
+        <siteMapNode url="DeleteUser.aspx" title="Delete User"  description="" />
+      </siteMapNode>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
